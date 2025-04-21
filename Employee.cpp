@@ -1,3 +1,12 @@
+/**
+ * @file Employee.cpp
+ * @author Justin Haddock
+ * @date 2025-04-21
+ * @brief Implementation for Employee class
+ * 
+ * 
+ */
+
 #include "Employee.h"
 #include <iostream>
 

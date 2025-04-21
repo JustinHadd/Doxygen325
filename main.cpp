@@ -1,3 +1,12 @@
+/**
+ * @file main.cpp
+ * @author Justin Haddock
+ * @date 2025-04-21
+ * @brief The main file that tests the classes
+ * 
+ * Tests all of the classes and prints them out
+ */
+
 
 #include <iostream>
 #include "Employee.h"
@@ -6,6 +15,16 @@
 
 using namespace std;
 
+
+/**
+ * Helper method that helps run tests for each class
+ *
+ * @param Employee & e the class
+ * @pre 
+ * @return void 
+ * @post 
+ * 
+ */
 void runEmployeeTests(Employee & e);
 
 int main() {
@@ -55,6 +74,16 @@ int main() {
   return 0;
 }
 
+
+/**
+ * The helper function that helps run the tests
+ *
+ * @param Employee &e the class
+ * @pre 
+ * @return void 
+ * @post 
+ * 
+ */
 void runEmployeeTests(Employee &e) {
   
   cout << "Initial print():" << endl;
